@@ -1,0 +1,121 @@
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 212, 255);
+    box-sizing: border-box;
+}
+
+
+
+.row h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(23, 107, 135);
+    padding: 15px;
+
+}
+
+.row {
+    position: absolute;
+    left: 40%;
+    top: 15px;
+    border-radius: 25px;
+    border: 2px solid rgb(23, 107, 135);
+    width: 20%;
+    padding: 20px;
+    height: 350px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.bookinfo {
+    color: rgb(23, 107, 135);
+    top: 120px;
+
+}
+
+.row input {
+    border: none;
+    width: 100px;
+    height: 40px;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(134, 182, 246);
+
+}
+
+#lable3 {
+    margin-right: 14px;
+}
+
+#lable1 {
+    margin-right: 9px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    position: absolute;
+    top: 550px;
+
+
+}
+
+.AddBook {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid rgb(23, 107, 135);
+    padding: 15px;
+    color: rgb(23, 107, 135);
+    margin-top: 15px;
+    background-color: transparent;
+
+}
+
+.AddBook:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(134, 182, 246);
+}
+
+#book-list th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 2px solid rgb(23, 107, 135);
+    color: rgb(23, 107, 135);
+
+
+}
+
+.information-book th,
+td {
+    font-size: 15px;
+    border: 1px solid rgb(23, 107, 135);
+    color: rgb(23, 107, 135);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.book-all {
+
+    color: rgb(23, 107, 135);
+}
+
+.book-all th {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
